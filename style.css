@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    color: rgb(1, 27, 35);
+    font-family: "Times New Roman";
+}
+
+body {
+    padding-top: 10px;
+    background: url('background.jpg');
+    background-color: black;
+    padding-left: 30px;
+
+}
+
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h2 {
+    background-color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section {
+
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.profile {
+    text-align: center;
+
+
+
+}
+
+
+.profile img {
+    border-radius: 100000px;
+    width: 350px;
+    height: 350px;
+}
+
+.profile p {
+    color: #000000;
+    margin-bottom: 20px;
+
+}
+
+.myinfo li {
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    align-items: center;
+
+}
+
+.myinfo li :hover {
+    background-color: black;
+}
+
+.myinfo .social li {
+    text-align: left;
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.skills ol {
+    list-style: none;
+}
+
+.skills ul {
+    list-style: square;
+}
+
+.skills ol {
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+
+.event {
+    display: grid;
+    grid-template-columns: 60px 700px;
+}
+
+.duration {
+    color: black
+}
+
+.content {
+    border-left: 1px solid black;
+    padding-left: 25px;
+    margin-left: 25px;
+
+}
+
+.ins {
+    background-color: black;
+    color: #ffffff;
+}
+
+.total {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-gap: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.sideA {
+    background-color: #4d474900;
+}
+
+.sideB {
+    padding-right: 100px;
+}
+
+.nav a {
+    text-align: center;
+    color: redS;
+    display: inline-block;
+    height: 40px;
+    width: 145px;
+    padding: 10px;
+
+
+}
+
+.nav a:hover {
+S
+}
+
+.nav div {
+    align-items: center;
+
+}
+
+footer div {
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+}
